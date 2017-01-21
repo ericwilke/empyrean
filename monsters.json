@@ -1,0 +1,17 @@
+{
+    "kobold": {
+        "desc": "Small lizard-like humanoid.",
+        "hp": "1:4",
+        "resists": "",
+        "prevelance": "frequent",
+        "attack": [
+            {"name": "dagger", "range": 1, "damage": 3, "type": "melee", "bonus": 0},
+            {"name": "bow", "range": 4, "damage": 4, "type": "range", "bonus": 1}
+        ],
+        "armor class": 10,
+        "gold": "0:5",
+        "level": 1,
+        "xp": 3,
+        "special items": "none"
+    }
+}
