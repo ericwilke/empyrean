@@ -1,0 +1,24 @@
+{
+    "monstername": {
+        "desc": "brief description",
+        "hp": "1:4",
+        "resists": "fire/shock/blast/frost/range/melee",
+        "prevelance": "once/very rare/rare/common/frequent",
+        "attack": [{"name": "dagger", "range": 1, "damage": 3,           "type": "fire/shock/blast/frost/range/melee",           "bonus": 0},
+                   {"name": "bow", "range": 4, "damage": 4, "type": "fire/shock/blast/frost/range/melee",
+                   "bonus": 1}],
+        "armor class": 10,
+        "gold": "0:5",
+        "level": 1,
+        "xp": 3,
+        "special items": "none"
+    }
+}
+
+# "1:5" denote a range with min, max
+# the attack bonus is added to the monster d20 attack roll
+
+
+# COMBAT NOTES:
+
+# if d20 + bonus >= PLAYER.armor + dex (light armor) or str (heavy armor): HIT

@@ -1,0 +1,25 @@
+{
+    "id": {
+        "name": "King Britania",
+        "tile": "king"
+        "x": 0,
+        "y": 0,
+        "movement": "static, pace-x, pace-y, random, constrain",
+        "x_direction": 0,
+        "y_direction": 0,
+        "constrain_low_x": 0,
+        "constrain_high_x": 0,
+        "constrain_low_y": 0,
+        "constrain_high_y": 0,
+        "greeting": ["Hello.", "I hear there is danger on the roads."]
+        "heal": "yes",
+        "buy_sell": "no",
+        "give_item": {"item": "resist fire ring", "msg": "Take this ring, you may need it."}
+        "teach_spell": {"spell": "heal", "msg": "I will teach you the HEAL spell."}
+    }
+}
+
+# NOTES:
+# "tile": gives the name of the index for the TILE list
+# "greeting": will display one of the list items in a random way
+# if "heal" is True, will raise player HP and magic to max levels

@@ -4,14 +4,97 @@
         "hp": "1:4",
         "resists": "",
         "prevelance": "frequent",
-        "attack": [
-            {"name": "dagger", "range": 1, "damage": 3, "type": "melee", "bonus": 0},
-            {"name": "bow", "range": 4, "damage": 4, "type": "range", "bonus": 1}
-        ],
+        "attack": 
+            {"name": "spear", "range": 1, "damage": 3, "type": "melee", "bonus": 0},
         "armor class": 10,
         "gold": "0:5",
         "level": 1,
         "xp": 3,
-        "special items": "none"
+        "special items": "none",
+        "movement": "random"
+    },
+    "scorpion": {
+        "desc": "Giant, poisonous scorpion.",
+        "hp": "2:6",
+        "resists": "",
+        "prevelance": "frequent",
+        "attack": 
+            {"name": "sting", "range": 1, "damage": 4, "type": "melee", "bonus": 0},
+        "armor class": 12,
+        "gold": "0:0",
+        "level": 1,
+        "xp": 4,
+        "special items": "none",
+        "movement": "random"
+    },
+    "rat": {
+        "desc": "Giant dungeon rat.",
+        "hp": "1:2",
+        "resists": "",
+        "prevelance": "frequent",
+        "attack": 
+            {"name": "sting", "range": 1, "damage": 4, "type": "melee", "bonus": 0},
+        "armor class": 8,
+        "gold": "0:0",
+        "level": 1,
+        "xp": 1,
+        "special items": "none",
+        "movement": "random"
+    },
+    "skeleton": {
+        "desc": "Animated undead skeleton.",
+        "hp": "2:6",
+        "resists": "range",
+        "prevelance": "common",
+        "attack": 
+            {"name": "sword", "range": 1, "damage": 4, "type": "melee", "bonus": 0},
+        "armor class": 12,
+        "gold": "0:5",
+        "level": 1,
+        "xp": 4,
+        "special items": "none",
+        "movement": "random"
+    },
+    "zombie": {
+        "desc": "Rotting undead.",
+        "hp": "3:8",
+        "resists": "",
+        "prevelance": "common",
+        "attack": 
+            {"name": "bludgeon", "range": 1, "damage": 4, "type": "melee", "bonus": 0},
+        "armor class": 8,
+        "gold": "0:0",
+        "level": 1,
+        "xp": 4,
+        "special items": "none",
+        "movement": "random"
+    },
+    "zombieking": {
+        "desc": "King of the rotting undead.",
+        "hp": "5:10",
+        "resists": "",
+        "prevelance": "common",
+        "attack": 
+            {"name": "bludgeon", "range": 1, "damage": 8, "type": "melee", "bonus": 2},
+        "armor class": 8,
+        "gold": "0:10",
+        "level": 2,
+        "xp": 8,
+        "special items": "none",
+        "movement": "static"
+    },
+    "mummy": {
+        "desc": "Dead wraped in cloth.",
+        "hp": "5:10",
+        "resists": "",
+        "prevelance": "common",
+        "attack": 
+            {"name": "bludgeon", "range": 1, "damage": 6, "type": "melee", "bonus": 0},
+        "armor class": 7,
+        "gold": "0:0",
+        "level": 2,
+        "xp": 6,
+        "special items": "none",
+        "movement": "random"
     }
 }

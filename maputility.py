@@ -2,8 +2,10 @@
 
 import sys
 
-print("Map file name for parsing: ")
-filename = input().rstrip()
+filename = input("Map file name for parsing: ").rstrip()
+
+if filename == "" or filename == None:
+    quit()
 
 MAP = []
 
@@ -13,8 +15,9 @@ with open(filename) as mapfile:
             linedata = line.split(" ")
             MAP.append(linedata)
 
-print ("map size: " + str(len(MAP[0])) + " by " + str(len(MAP)))
-print ("===============MAP DATA STRCTURE===============")
+print(" ")
+print("map size: " + str(len(MAP[0])) + " by " + str(len(MAP)))
+print("===============MAP DATA STRCTURE===============")
 output = "["
 for row in MAP:
     output = output + str(row)
@@ -22,3 +25,4 @@ output = output + "]"
 output = output.replace("'", '"')
 output = output.replace("][", "],[")
 print(output)
+print("==================END OF FILE==================")
