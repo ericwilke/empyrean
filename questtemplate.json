@@ -1,0 +1,43 @@
+{
+    "id": {
+        "starting_map": "castlebritania",
+        "trigger": {"trigger": "talk/kill/quest", "target": "id"},
+        "status": "pending/active/complete",
+        "type": "talk/kill",
+        "quest_target": {"name": "kobold", "map": "britania"},
+        "quota": 10,
+        "starting_message": "Long text description",
+        "completion_triggers_quest": "id",
+        "completion_message": "congrats!",
+        "reward_item": "skeleton key",
+        "reward_gold": 0,
+        "reward_xp": 0,
+        "reward_spell": ""
+    }
+}
+
+
+NOTES:
+"stating_map": lists the map where the quest will start
+
+"trigger": list the event to start the quest (talk/kill/quest) and the ID of the target. If an NPC, the ID is the dictionary key. If a monster, the ID is the monster name.
+
+"status": details if the quest is pending, active, or complete.
+
+"quest_target": lists who the target of the quest is. If a monster, the name is the monster name. If it is an NPC, then the name of the target is the dictionary key of the NPC. Include the map where the target lives (important for NPCs).
+
+"quota": how many monsters must be killed, or items gathered for the quest.
+
+"starting_message": text that will be displayed at the start of the quest.
+
+"completion_triggers_quest": provides the quest ID if completion of one quest triggers the start of another quest.
+
+"completion_message": text that will be displayed upon completion of the quest.
+
+"reward_item": an item that will be given to the player at completion
+
+"reward_spell": a spell that will be learned by the player at completion
+
+"reward_gold": the amount of gold given to the player at completion
+
+"reward_xp": the amount of XP awarded to the player for completion

@@ -12,6 +12,6 @@
     "gold": 3,
     "weapon": "dagger",
     "armor": "leather",
-    "items": ["short sword", "ring", "blanket", "skeleton key"],
-    "spells": ["heal"]
+    "items": [],
+    "spells": []
 }

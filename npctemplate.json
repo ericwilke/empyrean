@@ -1,7 +1,7 @@
 {
     "id": {
         "name": "King Britania",
-        "tile": "king"
+        "tile": "king",
         "x": 0,
         "y": 0,
         "movement": "static, pace-x, pace-y, random, constrain",
@@ -11,15 +11,30 @@
         "constrain_high_x": 0,
         "constrain_low_y": 0,
         "constrain_high_y": 0,
-        "greeting": ["Hello.", "I hear there is danger on the roads."]
+        "greeting": ["Hello.", "I hear there is danger on the roads."],
         "heal": "yes",
         "buy_sell": "no",
-        "give_item": {"item": "resist fire ring", "msg": "Take this ring, you may need it."}
-        "teach_spell": {"spell": "heal", "msg": "I will teach you the HEAL spell."}
+        "give_item": {"item": "resist fire ring", "msg": "Take this ring, you may need it."},
+        "teach_spell": {"spell": "heal", "msg": "I will teach you the HEAL spell."},
+        "changeTile": {"x": 0, "y": 0, "value": "."},
+        "addPortal": {"(x,y)": "mapname"}
     }
 }
 
-# NOTES:
-# "tile": gives the name of the index for the TILE list
-# "greeting": will display one of the list items in a random way
-# if "heal" is True, will raise player HP and magic to max levels
+NOTES:
+"name": provides the name of the NPC
+"tile": gives the name of the index for the TILE list
+"x": x position on the map
+"y": y position on the map
+"movement": the type of movement for the NPC (static = stationary, pace-x = moves back and fourth in the horizontal direction, pace-y = moves back and fourth in the vertical direction, random, constrain = keeps the player within limits (set below)
+"constrain_low_x": the lower x limit of movement
+"constrain_high_x": the upper x limit of movement
+"constrain_low_y": the lower y limit of movement
+"constrain_high_y": the upper y limit of movement
+"x_direction": the per turn addative to the x position (+1, 0, -1)
+"y_direction": the per turn addative to the y position (+1, 0, -1)
+"greeting": will display one of the list items in a random way
+"heal": if 'yes', will raise player HP and magic to max levels
+"buy_sell": if 'yes', will allow for trade (buying and selling)
+"give_item": a dictionary that includes the 'item' and the 'msg' that will be given to the player and text displayed
+"teach_spell": a spell that will be taught to the player by the NPC

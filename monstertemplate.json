@@ -4,21 +4,26 @@
         "hp": "1:4",
         "resists": "fire/shock/blast/frost/range/melee",
         "prevelance": "once/very rare/rare/common/frequent",
-        "attack": [{"name": "dagger", "range": 1, "damage": 3,           "type": "fire/shock/blast/frost/range/melee",           "bonus": 0},
-                   {"name": "bow", "range": 4, "damage": 4, "type": "fire/shock/blast/frost/range/melee",
-                   "bonus": 1}],
+        "attack": {"name": "dagger", "range": 1, "damage": 3, "type": "fire/shock/blast/frost/range/melee", "bonus": 0},
         "armor class": 10,
         "gold": "0:5",
         "level": 1,
         "xp": 3,
-        "special items": "none"
+        "special items": "none",
+        "movement": "static"
     }
 }
 
-# "1:5" denote a range with min, max
-# the attack bonus is added to the monster d20 attack roll
-
-
-# COMBAT NOTES:
-
-# if d20 + bonus >= PLAYER.armor + dex (light armor) or str (heavy armor): HIT
+NOTES:
+"monstername": is the key ID for the dictionary entry
+"desc": a description of the monster -- not currently used by the system
+"hp": a text entry with the lower and upper limits of HP (determined randomly): "1:4" will produce a random result between 1 and 4.
+"resists": damage types that are resisted by the monster (not currently used)
+"prevelance": determines the frequency of occurance by random generation; options include 'once', 'very rare', 'rare', 'common', and 'frequent'
+"attack": a dictionary that details the monster's attack (name, range, damage, type, bonus)
+"armor class": the base difficulty to hit the monster
+"gold": "0:5",
+"level": difficulty level of the monster (not currently used)
+"xp": XP awarded to player if monster killed
+"special items": items that are awarded to the player if monster killed
+"movement": determines if the monster is stationary until within view of the player; options are 'static' or 'random'

@@ -7,6 +7,5 @@
     "locked_doors": {"(10,17)": "key/skeleton key/rune key/etc"},
     "monsters": [{"name": "kobold", "x": 0, "y": 0, "hp": 3}, {"name": "kobold", "x": 18, "y": 25, "hp": 3}],
     "spawnfrequency": 3,
-    "max_monsters": 10,
     "spawntypes": ["kobold", "rat"]
 }

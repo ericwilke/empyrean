@@ -1,0 +1,20 @@
+{
+    "1": {
+        "name": "rune",
+        "tile": "runestone",
+        "x": 34,
+        "y": 30,
+        "movement": "static",
+        "x_direction": 0,
+        "y_direction": 0,
+        "constrain_low_x": 0,
+        "constrain_high_x": 0,
+        "constrain_low_y": 0,
+        "constrain_high_y": 0,
+        "greeting": ["Hummmmmm..."],
+        "heal": "yes",
+        "buy_sell": "no",
+        "give_item": {"item": "silver key", "msg": "Take this key, but beware..."},
+        "teach_spell": {"spell": "turn undead", "msg": "You can now cast TURN UNDEAD."}
+    }
+}

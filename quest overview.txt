@@ -1,0 +1,45 @@
+CASTLE BRITANIA:
+ - Lord Stark:
+    * provides HEAL spell
+    * heals
+    * starts "kill 10 kobolds" quest
+    * starts "talk to old man" quest
+    * starts "kill zombie king" quest: gives "skeleton key"
+
+CASTLE BRITANIA DUNGEON LEVEL 1:
+ - Zombie King
+
+
+CASTLE BRITANIA DUNGEON LEVEL 2:
+
+
+EASTPORT:
+ - Has boat that is portal to another map
+ 
+
+CAIRRAGE:
+ - Mayor Gilliford
+    * starts "cult of phaleen" quest (directs to Mine of Hellis to look for cultists), give "hellis mine key"
+
+
+MINE OF HELLIS:
+ - need "hellis mine key" to enter
+ - many cultists in mine
+ - a few NPC "prisoners" present -- tell the story that the cultist are working on bringing the Queen of Dragons to the realm to destroy everything
+ - portal to the cultist castle
+ - a chest (NPC character) has the "phaleen amulet" that will allow entry into the cultist castle and start a quest for "destroying the cult of phaleen"
+
+
+FARDUR RUINS:
+ - need "skeleton key" to progress
+
+
+CULT OF PHALEEN CASTLE:
+ - locked door that requires the "phaleen amulet" to enter
+
+
+
+
+PROGRAM NEEDS:
+ - NPC/quest to alter map terrain tile(s): "changeTile": {"x": 0, "y": 0, "value": "."}
+ - NPC/quest to alter map portal(s): "addPortal": {"(x,y)": "mapname"}

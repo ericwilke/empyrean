@@ -1,4 +1,32 @@
 {
+    "goblin": {
+        "desc": "Small humanoid.",
+        "hp": "2:5",
+        "resists": "",
+        "prevelance": "common",
+        "attack": 
+            {"name": "short sword", "range": 1, "damage": 3, "type": "melee", "bonus": 0},
+        "armor class": 11,
+        "gold": "0:5",
+        "level": 1,
+        "xp": 3,
+        "special items": "none",
+        "movement": "random"
+    },
+    "orc": {
+        "desc": "Warrior humanoid.",
+        "hp": "4:14",
+        "resists": "",
+        "prevelance": "frequent",
+        "attack": 
+            {"name": "sword", "range": 1, "damage": 6, "type": "melee", "bonus": 0},
+        "armor class": 12,
+        "gold": "0:8",
+        "level": 1,
+        "xp": 5,
+        "special items": "none",
+        "movement": "random"
+    },
     "kobold": {
         "desc": "Small lizard-like humanoid.",
         "hp": "1:4",
@@ -15,15 +43,15 @@
     },
     "scorpion": {
         "desc": "Giant, poisonous scorpion.",
-        "hp": "2:6",
+        "hp": "3:14",
         "resists": "",
-        "prevelance": "frequent",
+        "prevelance": "rare",
         "attack": 
             {"name": "sting", "range": 1, "damage": 4, "type": "melee", "bonus": 0},
-        "armor class": 12,
+        "armor class": 14,
         "gold": "0:0",
         "level": 1,
-        "xp": 4,
+        "xp": 5,
         "special items": "none",
         "movement": "random"
     },
@@ -71,12 +99,12 @@
     },
     "zombieking": {
         "desc": "King of the rotting undead.",
-        "hp": "5:10",
+        "hp": "7:18",
         "resists": "",
-        "prevelance": "common",
+        "prevelance": "very rare",
         "attack": 
             {"name": "bludgeon", "range": 1, "damage": 8, "type": "melee", "bonus": 2},
-        "armor class": 8,
+        "armor class": 10,
         "gold": "0:10",
         "level": 2,
         "xp": 8,
